@@ -1,0 +1,18 @@
+{
+  "cwd": "/Users/keyu.wang/Documents/workspace/page4lican",
+  "type": [
+    "web"
+  ],
+  "name": "page4lican",
+  "framework": "react",
+  "template": "single-view",
+  "bundler": "vite",
+  "cssPreProcessor": "scss",
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkMode": false,
+    "iconFonts": true
+  },
+  "customBuild": false
+}

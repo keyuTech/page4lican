@@ -1,0 +1,15 @@
+/* Your app custom styles here */
+.social-media-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.list ul {
+  display: flex;
+}
