@@ -12,8 +12,6 @@ import { useEffect } from "react";
 const Work = () => {
   return (
     <Block className="block">
-      <div>work</div>
-
       <Card outlineMd>
         <CardHeader
           valign="bottom"
