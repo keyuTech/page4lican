@@ -67,6 +67,31 @@ i.facebook {
   background-image: url("../assets/icons/facebook.svg");
 }
 
+i.react {
+  background-image: url("../assets/icons/react.svg");
+  color: var(--f7-theme-color);
+}
+
+i.telescope {
+  background-image: url("../assets/icons/telescope.svg");
+  color: var(--f7-theme-color);
+}
+
+i.idea {
+  background-image: url("../assets/icons/idea.svg");
+  color: var(--f7-theme-color);
+}
+
+i.programming {
+  background-image: url("../assets/icons/programming.svg");
+  color: var(--f7-theme-color);
+}
+
+i.song {
+  background-image: url("../assets/icons/song.svg");
+  color: var(--f7-theme-color);
+}
+
 .block {
   max-width: 960px;
   margin: var(--f7-block-margin-vertical) auto;
