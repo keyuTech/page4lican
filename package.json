@@ -5,11 +5,14 @@
   "description": "page4lican",
   "repository": "",
   "license": "UNLICENSED",
+  "homepage": "https://github.com/keyuTech/page4lican",
   "scripts": {
     "start": "npm run dev",
     "dev": "cross-env NODE_ENV=development vite",
     "build": "cross-env NODE_ENV=production vite build",
-    "postinstall": "cpy --flat ./node_modules/framework7-icons/fonts/*.* ./src/fonts/ && cpy --flat ./node_modules/material-icons/iconfont/*.* ./src/fonts/"
+    "postinstall": "cpy --flat ./node_modules/framework7-icons/fonts/*.* ./src/fonts/ && cpy --flat ./node_modules/material-icons/iconfont/*.* ./src/fonts/",
+    "predeploy": "pnpm run build",
+    "deploy": "gh-pages -d www"
   },
   "browserslist": [
     "IOS >= 15",
@@ -33,6 +36,7 @@
     "@vitejs/plugin-react": "^4.0.3",
     "cpy-cli": "^5.0.0",
     "cross-env": "^7.0.3",
+    "gh-pages": "^5.0.0",
     "postcss-preset-env": "^9.1.0",
     "sass": "^1.64.1",
     "vite": "^4.4.7"

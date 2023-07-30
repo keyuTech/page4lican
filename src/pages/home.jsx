@@ -84,7 +84,7 @@ const HomePage = () => {
         <Link tabLink="#contact">Contact</Link>
       </Toolbar>
       <Tabs>
-        <Tab id={"info"}>
+        <Tab id={"info"} tabActive>
           <Info />
         </Tab>
         <Tab id={"work"}>
@@ -123,6 +123,11 @@ const HomePage = () => {
           Right Panel
         </Button>
       </Block> */}
+      <Toolbar bottom>
+        <p style={{ textAlign: "center", width: "100%" }}>
+          © 2023 LIQIONGYU. All rights reserved.
+        </p>
+      </Toolbar>
     </Page>
   );
 };

@@ -1,6 +1,5 @@
 import HomePage from "../pages/home.jsx";
 import InfoPage from "../components/info.jsx";
-import FormPage from "../pages/form.jsx";
 
 import DynamicRoutePage from "../pages/dynamic-route.jsx";
 import RequestAndLoad from "../pages/request-and-load.jsx";
@@ -14,10 +13,6 @@ var routes = [
   {
     path: "/info/",
     component: InfoPage,
-  },
-  {
-    path: "/form/",
-    component: FormPage,
   },
 
   {
