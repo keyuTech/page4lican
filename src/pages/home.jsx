@@ -79,7 +79,7 @@ const HomePage = () => {
         <Link tabLink="#info" tabLinkActive>
           Info
         </Link>
-        <Link tabLink="#work">Work/Project</Link>
+        <Link tabLink="#work">Project</Link>
         <Link tabLink="#biography">Biography</Link>
         <Link tabLink="#contact">Contact</Link>
       </Toolbar>
